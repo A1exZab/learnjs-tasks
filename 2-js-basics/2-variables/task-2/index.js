@@ -1,2 +1,2 @@
-const ourPlanetName = 'Земля';
-const currentUserName = 'Джон';
+const ourPlanetName = 'Земля'
+const currentUserName = 'Джон'

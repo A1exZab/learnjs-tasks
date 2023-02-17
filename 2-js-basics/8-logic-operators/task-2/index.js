@@ -1,4 +1,4 @@
-alert(alert(1) || 2 || alert(3));
+alert(alert(1) || 2 || alert(3))
 
 // alert(1) отработает, то вернется undefined
 // Следующее truthy значение это 2

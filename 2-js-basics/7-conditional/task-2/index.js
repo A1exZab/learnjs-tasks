@@ -1,8 +1,8 @@
-const userAnswer = prompt('Какое официальное название JavaScript?');
-const correctAnswer = 'ECMAScript';
+const userAnswer = prompt('Какое официальное название JavaScript?')
+const correctAnswer = 'ECMAScript'
 
 if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
-	alert('Верно!');
+	alert('Верно!')
 } else {
-	alert(`Не знаете?\n${correctAnswer}!`);
+	alert(`Не знаете?\n${correctAnswer}!`)
 }

@@ -1,3 +1,3 @@
-let result;
+let result
 
-a + b < 4 ? (result = 'Мало') : (result = 'Много');
+a + b < 4 ? (result = 'Мало') : (result = 'Много')

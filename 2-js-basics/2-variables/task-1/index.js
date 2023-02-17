@@ -1,8 +1,8 @@
-let admin;
-let name;
+let admin
+let name
 
-name = 'Джон';
-admin = name;
+name = 'Джон'
+admin = name
 
-alert(admin);
-console.log('ff');
+alert(admin)
+console.log('ff')

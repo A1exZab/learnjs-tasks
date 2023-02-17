@@ -1,6 +1,6 @@
-let i = 3;
+let i = 3
 while (i) {
-	alert(i--);
+	alert(i--)
 }
 
 // Выведет 3, 2, 1

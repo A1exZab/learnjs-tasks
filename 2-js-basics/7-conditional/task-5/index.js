@@ -1,4 +1,4 @@
-let message;
+let message
 
 message =
 	login == 'Сотрудник'
@@ -7,4 +7,4 @@ message =
 		? 'Здравствуйте'
 		: login == ''
 		? 'Нет логина'
-		: '';
+		: ''

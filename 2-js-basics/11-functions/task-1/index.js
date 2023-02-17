@@ -1,17 +1,17 @@
 function checkAge(age) {
 	if (age > 18) {
-		return true;
+		return true
 	} else {
-		return confirm('Родители разрешили?');
+		return confirm('Родители разрешили?')
 	}
 }
 
 function checkAge(age) {
 	if (age > 18) {
-		return true;
+		return true
 	}
 
-	return confirm('Родители разрешили?');
+	return confirm('Родители разрешили?')
 }
 
 //Обе реализации функции работают одинаково, без отличий

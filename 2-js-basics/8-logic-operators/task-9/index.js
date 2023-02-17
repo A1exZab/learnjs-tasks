@@ -1,18 +1,18 @@
-const login = prompt('Кто там?');
+const login = prompt('Кто там?')
 
 if (login === 'Админ') {
-	const password = prompt('Пароль?');
+	const password = prompt('Пароль?')
 	if (password === 'Я главный') {
-		alert('Здравствуйте!');
+		alert('Здравствуйте!')
 	} else if (password === '' || password === null) {
-		alert('Отменено');
+		alert('Отменено')
 	} else {
-		alert('Неверынй пароль');
+		alert('Неверынй пароль')
 	}
 } else if (login === '' || login === null) {
-	alert('Отменено');
+	alert('Отменено')
 } else {
-	alert('Я вас не знаю');
+	alert('Я вас не знаю')
 }
 
-window.location.reload();
+window.location.reload()
