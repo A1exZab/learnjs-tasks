@@ -1,0 +1,41 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	gap: 10px;
+}
+
+.clock {
+	display: flex;
+	justify-content: center;
+	gap: 2px;
+	font-size: 30px;
+	width: 200px;
+}
+
+.buttons {
+	display: flex;
+	width: 150px;
+	justify-content: center;
+	gap: 14px;
+}
+
+.hours {
+	color: red;
+}
+
+.minutes {
+	color: green;
+}
+
+.seconds {
+	color: blue;
+}
+
+.buttons button {
+	font-size: 18px;
+}
