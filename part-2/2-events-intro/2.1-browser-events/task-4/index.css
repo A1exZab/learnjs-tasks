@@ -1,0 +1,27 @@
+body {
+	height: 2000px;
+}
+
+#field {
+	box-sizing: border-box;
+	width: 200px;
+	height: 150px;
+	position: relative;
+	border: 10px solid black;
+	background-color: #00ff00;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#ball {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 30px;
+	height: 30px;
+	transition: 0.5s all;
+}
+
+#ball.rotate {
+	transform: rotate(360deg);
+}

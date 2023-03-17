@@ -1,0 +1,21 @@
+.title {
+	cursor: pointer;
+	user-select: none;
+}
+
+.arrow {
+	display: inline-block;
+	font-size: 90%;
+	transition: 0.2s all;
+	margin-right: 5px;
+}
+
+.rotate {
+	transform: rotate(90deg);
+}
+
+.sweets {
+	margin: 0;
+	list-style: none;
+	padding-left: 20px;
+}
